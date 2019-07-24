@@ -1,0 +1,22 @@
+body {
+  background: url(norsefire.jpg) no-repeat top left fixed;
+  background-size: cover;
+  background-color: black;
+  color: white;
+  font-family: Roboto, san-serif;
+}
+footer {
+  position: fixed;
+  left: 10px;
+  bottom: 5px;
+}
+h1 {
+  font-size: 900%;
+  margin-left: .5em;
+  margin-top: .25em;
+}
+a:link    { color: white }
+a:visited { color: white }
+a:hover   { color: white }
+a:active  { color: white }
+div.addthis_native_toolbox { display: inline; color: white }
