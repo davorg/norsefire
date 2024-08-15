@@ -1,22 +1,25 @@
 body {
-  background: url(norsefire.jpg) no-repeat bottom right fixed;
+  background: url(norsefire.jpg) no-repeat top left fixed;
   background-size: cover;
   background-color: black;
-  color: white;
+  color: black;
   font-family: Roboto, san-serif;
 }
 footer {
+  text-align: right;
+  color: black;
   position: fixed;
-  left: 10px;
+  right: 10px;
   bottom: 5px;
 }
 h1 {
+  float: right;
   font-size: 900%;
-  margin-left: .5em;
+  margin-right: .5em;
   margin-top: .25em;
 }
-a:link    { color: white }
-a:visited { color: white }
-a:hover   { color: white }
-a:active  { color: white }
-div.addthis_native_toolbox { display: inline; color: white }
+a:link    { color: black }
+a:visited { color: black }
+a:hover   { color: black }
+a:active  { color: black }
+div.addthis_native_toolbox { display: inline; color: black }
