@@ -37,8 +37,11 @@ a:hover   { color: black }
 a:active  { color: black }
 
 div.a2a_kit {
+  border: solid 2px black;
+  padding: 3px;
   display: inline;
   color: black;
+  background-color: white;
   position: absolute;
   left: 10px;
   bottom: 10px;
