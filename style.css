@@ -3,20 +3,26 @@ body {
   background-size: cover;
   background-color: black;
   color: black;
-  font-family: Roboto, san-serif;
+  font-family: sans-serif;
 }
 footer {
   text-align: right;
   color: black;
+  font-weight: bold;
   position: fixed;
   right: 10px;
   bottom: 5px;
 }
 h1 {
   float: right;
+  text-align: right;
   font-size: 900%;
   margin-right: .5em;
   margin-top: .25em;
+  font-family: "Anton", system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 100%;
 }
 a:link    { color: black }
 a:visited { color: black }
