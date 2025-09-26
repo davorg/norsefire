@@ -16,14 +16,21 @@ footer {
 h1 {
   float: right;
   text-align: right;
-  font-size: 900%;
+  font-size: clamp(2.2rem, 7vw, 9rem);
   margin-right: .5em;
   margin-top: .25em;
   font-family: "Anton", system-ui, sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
-  line-height: 100%;
+  letter-spacing: -0.01em;
+  line-height: 102%;
+  text-shadow:
+   1px  1px 0 #000,
+  -1px  1px 0 #000,
+   1px -1px 0 #000,
+  -1px -1px 0 #000;
 }
+
 a:link    { color: black }
 a:visited { color: black }
 a:hover   { color: black }
